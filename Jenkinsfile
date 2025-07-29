@@ -15,11 +15,7 @@ pipeline {
             }
         }
 
-        stage('Run Program') {
-            steps {
-                bat 'java Factorial'
-            }
-        }
+        
     }
 
     post {
