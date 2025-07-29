@@ -14,7 +14,11 @@ pipeline {
                 bat 'java TestFactorial'
             }
         }
-
+        stage('Run') {
+            steps {
+                bat 'java Factorial'
+            }
+        }
         
     }
 
