@@ -19,6 +19,11 @@ pipeline {
                 bat 'java Factorial'
             }
         }
+        stage('Package JAR') {
+            steps {
+                bat 'jar cfm factorial.jar manifest.txt Factorial.class'
+            }
+        }
         
     }
 
