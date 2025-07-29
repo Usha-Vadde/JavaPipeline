@@ -34,7 +34,7 @@ pipeline {
 
     post {
         success {
-            echo 'Factorial Java program built and tested successfully!'
+            echo 'Build, test, run and JAR cretaion successful and artifact is ready!'
         }
         failure {
             echo 'Build or test failed!'
