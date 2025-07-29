@@ -7,6 +7,9 @@ public class Factorial {
         }
         return result;
     }
-
+public static void main(String[] args) {
+        int n = 7;
+        System.out.println("Factorial of " + n + " is " + compute(n));
+    }
    
 }
